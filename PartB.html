@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="game.js"></script>
+    <link rel="stylesheet" type="text/css" href="assignment6.css">
+
+     <title>Assignment 6 part B</title>
+    </head>
+
+    
+   <!-- <audio id="music" src="bg.mp3" ></audio>-->
+<body class="home-bg">
+<!--<h1>Assignment 6</h1>-->
+<div class="title">
+<ul>
+  <li><a href="PartA.html">Part-A</a></li>
+  <li><a href="PartB.html">Part-B</a></li>
+  <li><a href="PartC.html">Part-C</a></li>
+</ul>
+</div>
+     
+        <audio id="music" src="bg.mp3" ></audio>
+
+     <input type="submit" id="st" value="play" onclick="start()" />
+    
+    <div id="game">
+      <p id="guess">Your remaining guess : 7</p>
+           
+     
+        <p>Time: <span id="minutes"> 00</span>:<span id="seconds">00</span></p>
+
+        <input type="text" id="userInput"  />
+        <input type="submit" id="start" value="Guess" onclick="check()" />
+  
+        <p id="result"></p>
+        </div>
+
+
+</body>
+</html>

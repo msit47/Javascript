@@ -1,0 +1,40 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="part3.css">
+	</head>
+	<body>
+	
+	<p style = "text-align: center">
+	
+<h1>Match the Tiles</h1>
+<li><a href="PartA.html">Part-A</a></li>
+<li><a href="PartB.html">Part-B</a></li>
+	
+	Time remaining
+    <div id="timer_div"></div><br>
+	<div id="remaintime_div"></div><br>
+	<div ID="theDiv" align="center"></div> 
+	   <p>Choose the number of pairs of pictures</p>
+		<select id = "PictureNumber">
+			<option value="8">8</option>
+			<option value="10">10</option>
+			<option value="12">12</option>
+		</select>
+		<br>
+		<p>Choose the number seconds</p>
+		<select id = "seconds">
+			<option value="3">3</option>
+			<option value="5">5</option>
+			<option value="8">8</option>
+		</select>
+		<br>
+		<input type="button" value="Submit" onclick= "tableCreate();remainingtime();">
+			<table id = "myTable">
+			</table>
+		<script src = "match.js">	
+			
+		</script>		
+	</body>
+
+
+<html>
